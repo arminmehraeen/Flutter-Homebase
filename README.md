@@ -37,6 +37,7 @@ Custom widgets
 2. MInkwell
 3. MSlider
 4. MStepperItem
+5. MButton
 
 Form widgets
 
