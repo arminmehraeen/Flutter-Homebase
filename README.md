@@ -27,11 +27,32 @@ import 'package:flutter_homebase/flutter_homebase.dart';
 
 ## Usage
 
-```dart
-  100.height; -> SizedBox(height: 100)
-  100.width; -> SizedBox(width: 100) 
-```
+Custom classes
 
+1. MScrollBehavior
+
+Custom widgets
+
+1. MCard
+2. MInkwell
+3. MSlider
+4. MStepperItem
+
+Form widgets
+
+1. MTimeFormField
+2. MTextFormField
+3. MRangeSelectorField
+4. MPasswordTextFormField
+5. MNumberFormField
+6. MMultiChooseItem
+7. MChooseFormField
+8. MCheckBoxFormField
+
+Extensions
+
+1. Int Extensions
+2. Num Extensions
 
 ## Additional information
 Support this package by star it :heart_on_fire:
