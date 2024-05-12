@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  syncfusion_flutter_sliders:
+  syncfusion_flutter_sliders: ^25.2.3
 
 dev_dependencies:
   flutter_test:
