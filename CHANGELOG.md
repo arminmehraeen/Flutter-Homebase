@@ -3,3 +3,4 @@
 Collection of Widgets and helpful Methods that every flutter developer needs
 
 1. MStepper : custom stepper widget
+2. Int Extensions
