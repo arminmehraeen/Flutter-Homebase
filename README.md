@@ -52,8 +52,9 @@ Form widgets
 
 Extensions
 
-1. Int Extensions
+1. Status Code Extension
 2. Num Extensions
+3. Persian Number Extension
 
 ## Additional information
 Support this package by star it :heart_on_fire:
