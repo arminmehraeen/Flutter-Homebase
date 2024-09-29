@@ -44,7 +44,7 @@ class _MCheckBoxFormFieldState extends State<MCheckBoxFormField> {
               shape: OutlineInputBorder(
                   borderSide: BorderSide(
                       color: field.hasError
-                          ? Theme.of(context).errorColor
+                          ? Theme.of(context).colorScheme.error
                           : Colors.grey)),
               value: value,
               onChanged: (v) {
@@ -66,7 +66,7 @@ class _MCheckBoxFormFieldState extends State<MCheckBoxFormField> {
                           .copyWith(bottom: 0),
                   child: Text(field.errorText ?? "Default error text",
                       style: TextStyle(
-                          color: Theme.of(context).errorColor, fontSize: 13)),
+                          color: Theme.of(context).colorScheme.error, fontSize: 13)),
                 ))
           ],
         );

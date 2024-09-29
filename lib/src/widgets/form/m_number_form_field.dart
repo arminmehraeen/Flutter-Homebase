@@ -94,7 +94,7 @@ class _MNumberFormFieldState extends State<MNumberFormField> {
                           .copyWith(bottom: 0),
                   child: Text(field.errorText ?? "Default error text",
                       style: TextStyle(
-                          color: Theme.of(context).errorColor, fontSize: 13)),
+                          color: Theme.of(context).colorScheme.error, fontSize: 13)),
                 ))
           ],
         );

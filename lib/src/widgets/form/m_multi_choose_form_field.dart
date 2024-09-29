@@ -71,7 +71,7 @@ class _MMultiChooseFormFieldState extends State<MMultiChooseFormField> {
                   borderRadius: BorderRadius.circular(5),
                   border: Border.all(
                       color: field.hasError
-                          ? Theme.of(context).errorColor
+                          ? Theme.of(context).colorScheme.error
                           : Colors.grey)),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -129,7 +129,7 @@ class _MMultiChooseFormFieldState extends State<MMultiChooseFormField> {
                           .copyWith(bottom: 0),
                   child: Text(field.errorText ?? "Default error text",
                       style: TextStyle(
-                          color: Theme.of(context).errorColor, fontSize: 13)),
+                          color: Theme.of(context).colorScheme.error, fontSize: 13)),
                 )),
           ],
         );

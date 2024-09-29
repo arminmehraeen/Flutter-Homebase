@@ -44,7 +44,7 @@ class _MTimeFormFieldState extends State<MTimeFormField> {
                   borderRadius: BorderRadius.circular(5),
                   border: Border.all(
                       color: field.hasError
-                          ? Theme.of(context).errorColor
+                          ? Theme.of(context).colorScheme.error
                           : Colors.grey)),
               child: ListTile(
                 onTap: () async {

@@ -1,6 +1,6 @@
 name: flutter_homebase
 description: Collection of Widgets and helpful Methods that every flutter developer needs.
-version: 1.4.0
+version: 1.4.2
 homepage: https://github.com/arminmehraeen/Flutter-Homebase
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  syncfusion_flutter_sliders: ^25.2.3
+  syncfusion_flutter_sliders: ^27.1.50
 
 dev_dependencies:
   flutter_test:
