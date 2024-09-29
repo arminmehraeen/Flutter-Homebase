@@ -82,7 +82,8 @@ class _MRangeSelectorFieldState extends State<MRangeSelectorField> {
                           .copyWith(bottom: 0),
                   child: Text(field.errorText ?? "Default error text",
                       style: TextStyle(
-                          color: Theme.of(context).colorScheme.error, fontSize: 13)),
+                          color: Theme.of(context).colorScheme.error,
+                          fontSize: 13)),
                 ))
           ],
         );

@@ -50,17 +50,17 @@ class _MSliderState extends State<MSlider> {
     // Auto-scrolling functionality
     if (widget.autoScroll) {
       Timer.periodic(Duration(seconds: widget.autoScrollSecondDuration),
-              (timer) {
-            if (pageController.page == widget.pictures.length - 1) {
-              pageController.animateToPage(0,
-                  duration: const Duration(milliseconds: 500),
-                  curve: Curves.easeIn);
-            } else {
-              pageController.nextPage(
-                  duration: const Duration(milliseconds: 500),
-                  curve: Curves.easeIn);
-            }
-          });
+          (timer) {
+        if (pageController.page == widget.pictures.length - 1) {
+          pageController.animateToPage(0,
+              duration: const Duration(milliseconds: 500),
+              curve: Curves.easeIn);
+        } else {
+          pageController.nextPage(
+              duration: const Duration(milliseconds: 500),
+              curve: Curves.easeIn);
+        }
+      });
     }
 
     super.initState();
@@ -115,7 +115,7 @@ class _MSliderState extends State<MSlider> {
                         // Apply selected dot color if the dot is selected, otherwise apply dot color
                         backgroundColor: i == index
                             ? widget.selectedDotColor ??
-                            Theme.of(context).primaryColor
+                                Theme.of(context).primaryColor
                             : widget.dotColors ?? Colors.white),
                   ),
                 )

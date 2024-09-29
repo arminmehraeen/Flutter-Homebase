@@ -13,12 +13,10 @@ class MPasswordTextFormField extends StatefulWidget {
   final Function(String value) onSaved;
 
   @override
-  State<MPasswordTextFormField> createState() =>
-      _MPasswordTextFormFieldState();
+  State<MPasswordTextFormField> createState() => _MPasswordTextFormFieldState();
 }
 
-class _MPasswordTextFormFieldState
-    extends State<MPasswordTextFormField> {
+class _MPasswordTextFormFieldState extends State<MPasswordTextFormField> {
   bool isShowPassword = false;
 
   @override

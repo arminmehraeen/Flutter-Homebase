@@ -70,7 +70,10 @@ class _MNumberFormFieldState extends State<MNumberFormField> {
                             setState(() {});
                           }
                         },
-                        icon: Icon(Icons.add,color: Theme.of(context).primaryColor,)),
+                        icon: Icon(
+                          Icons.add,
+                          color: Theme.of(context).primaryColor,
+                        )),
                     Text(value.toString()),
                     IconButton(
                         onPressed: () {
@@ -81,7 +84,10 @@ class _MNumberFormFieldState extends State<MNumberFormField> {
                             setState(() {});
                           }
                         },
-                        icon: Icon(Icons.remove,color: Theme.of(context).primaryColor,)),
+                        icon: Icon(
+                          Icons.remove,
+                          color: Theme.of(context).primaryColor,
+                        )),
                   ],
                 ),
               ),
@@ -94,7 +100,8 @@ class _MNumberFormFieldState extends State<MNumberFormField> {
                           .copyWith(bottom: 0),
                   child: Text(field.errorText ?? "Default error text",
                       style: TextStyle(
-                          color: Theme.of(context).colorScheme.error, fontSize: 13)),
+                          color: Theme.of(context).colorScheme.error,
+                          fontSize: 13)),
                 ))
           ],
         );

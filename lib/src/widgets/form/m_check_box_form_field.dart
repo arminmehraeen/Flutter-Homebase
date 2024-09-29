@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class MCheckBoxFormField extends StatefulWidget {
   final String label;
-  final String? subtitle ;
+  final String? subtitle;
   final bool initValue;
   final Function(bool value) onChange;
 
@@ -10,7 +10,8 @@ class MCheckBoxFormField extends StatefulWidget {
       {Key? key,
       required this.label,
       this.initValue = false,
-      required this.onChange, this.subtitle})
+      required this.onChange,
+      this.subtitle})
       : super(key: key);
 
   @override
@@ -56,7 +57,7 @@ class _MCheckBoxFormFieldState extends State<MCheckBoxFormField> {
               title: Text(
                 widget.label,
               ),
-              subtitle: widget.subtitle != null ?  Text(widget.subtitle!) : null,
+              subtitle: widget.subtitle != null ? Text(widget.subtitle!) : null,
             ),
             Visibility(
                 visible: field.hasError,
@@ -66,7 +67,8 @@ class _MCheckBoxFormFieldState extends State<MCheckBoxFormField> {
                           .copyWith(bottom: 0),
                   child: Text(field.errorText ?? "Default error text",
                       style: TextStyle(
-                          color: Theme.of(context).colorScheme.error, fontSize: 13)),
+                          color: Theme.of(context).colorScheme.error,
+                          fontSize: 13)),
                 ))
           ],
         );

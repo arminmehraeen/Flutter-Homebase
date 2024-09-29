@@ -1,4 +1,4 @@
-## 1.4.2
+## 1.4.4
 
 Collection of Widgets and helpful Methods that every flutter developer needs
 

@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
 extension NumExtensions on num {
-
   /// Returns a SizedBox widget with the specified height.
   ///
   /// Example usage:
@@ -17,5 +16,4 @@ extension NumExtensions on num {
   /// final box = 150.width; // Creates a SizedBox with width 150.0
   /// ```
   SizedBox get width => SizedBox(width: toDouble());
-
 }

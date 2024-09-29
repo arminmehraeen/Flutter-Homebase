@@ -1,5 +1,4 @@
 extension StatusCodeExtension on int? {
-
   /// Returns true if the status code is 200 (OK).
   bool get isOK => this == 200;
 

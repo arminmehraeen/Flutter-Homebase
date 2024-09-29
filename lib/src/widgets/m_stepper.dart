@@ -94,18 +94,18 @@ class _MStepperState extends State<MStepper> {
       // Callback when continue button is pressed
       onStepContinue: step != widget.steps.length - 1
           ? () {
-        setState(() {
-          step += 1;
-        });
-      }
+              setState(() {
+                step += 1;
+              });
+            }
           : null,
       // Callback when cancel button is pressed
       onStepCancel: step != 0
           ? () {
-        setState(() {
-          step -= 1;
-        });
-      }
+              setState(() {
+                step -= 1;
+              });
+            }
           : null,
       // Set the type of the stepper (vertical or horizontal)
       type: widget.stepperType ?? StepperType.vertical,
